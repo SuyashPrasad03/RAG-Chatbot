@@ -2,8 +2,8 @@ import os
 import textwrap
 from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import PromptTemplate
-from langchain_classic.chains import ConversationalRetrievalChain, LLMChain
-from langchain_classic.memory import ConversationSummaryBufferMemory
+from langchain.chains import ConversationalRetrievalChain, LLMChain
+from langchain.memory import ConversationSummaryBufferMemory
 from app import get
 
 def setup_components():
